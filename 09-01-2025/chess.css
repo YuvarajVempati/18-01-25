@@ -1,0 +1,42 @@
+.chessboard tr:nth-child(odd) td:nth-child(even) {
+    background-color: aqua;
+}
+.chessboard tr:nth-child(even) td:nth-child(even){
+    background-color: orange;
+}
+.chessboard tr:nth-child(even) td:nth-child(odd){
+    background-color: aqua;
+}
+.chessboard tr:nth-child(odd) td:nth-child(odd){
+    background-color: orange;
+}
+td{
+    width: fit-content;
+    width: 30px;
+    height: 20px;
+    transition: 1s ease;
+
+}
+td:hover{
+    transform:scale(1.1);
+}
+table{
+    border: color black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
