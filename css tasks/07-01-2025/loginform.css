@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    position: absolute;
+
+}
+.formcss{
+    box-sizing: border-box;
+
+    background-color: darkmagenta;
+    color: white;
+    border: violet solid ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    top: 120px;
+    left: 450px;
+    padding: 50px;
+
+    
+    
+}
+.one{
+    width: 172px;
+    background-color: skyblue;
+    color:white
+}
+a{
+    color:skyblue;
+    text-decoration: none;
+
+
+}
+.signin{
+    background-color: violet;
+    border: darkmagenta solid ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    top: 120px;
+    left: 450px;
+    padding: 50px;
+
+
+}
+.two{
+    width: 172px;
+    background-color: skyblue;
+    color:white;
+    border: white;
+
+}
+
